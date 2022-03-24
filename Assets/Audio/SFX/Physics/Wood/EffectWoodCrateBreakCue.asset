@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2071ff1b8f4a4a8b83cd329954521, type: 3}
+  m_Name: EffectWoodCrateBreakCue
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: c1fbdfff3a883e54f893f9e935c4eb2d, type: 3}
+  - {fileID: 8300000, guid: b5ce716ea11294744a9fcb086e83aceb, type: 3}
+  - {fileID: 8300000, guid: e4b67ea2387c90140b288fc86be88d35, type: 3}
+  - {fileID: 8300000, guid: 1db4e3bb8616e244c8ad535ca18abd60, type: 3}
+  - {fileID: 8300000, guid: 24632d960ae2ba844ad5e8724def5624, type: 3}

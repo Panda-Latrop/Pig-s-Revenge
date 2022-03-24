@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3358437131650121684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3358437131650121690}
+  - component: {fileID: 3358437131650121691}
+  m_Layer: 0
+  m_Name: GameState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3358437131650121690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3358437131650121684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3358437131650121691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3358437131650121684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64bd99dd8d30e24e8720c5e3c66a81c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: Prefabs/GameState/GameState
+  saveTag: 
+  specifier: gamebattlestate
+  playerLives: 5
+  saveCount: 5
+  pig: {fileID: 937854845545798258, guid: 1cfd91176a091204b83b499da7f57015, type: 3}
+  farmer: {fileID: 7706415428389277849, guid: 6fb674f85d420dd438c2f07495850618, type: 3}
+  dog: {fileID: 827295575359580311, guid: e26b9929711a56645841b08908eff6af, type: 3}
+  timeToSpawnPig: 2
+  timeToSpawnDog: 10
+  timeToSpawnFarmer: 3
+  pigCount: 3
+  dogCount: 1
+  farmerCount: 1
+  enemyPoint: {fileID: 0}
+  outGridPoint: {fileID: 0}
+  pigSaveEffect: {fileID: 1473864051410478796, guid: 3ddc55d30dddc33469f5a026f95c217e, type: 3}
+  spawnEffect: {fileID: 116960507840416732, guid: 4e7c331caa81114488bcc1f58d83e496, type: 3}

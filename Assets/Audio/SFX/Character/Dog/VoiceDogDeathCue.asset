@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2071ff1b8f4a4a8b83cd329954521, type: 3}
+  m_Name: VoiceDogDeathCue
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 86c08790f550c764784939ea1687d8d2, type: 3}
+  - {fileID: 8300000, guid: 9b4b9bebaa7fe004d9dd5d6f893fcb6c, type: 3}

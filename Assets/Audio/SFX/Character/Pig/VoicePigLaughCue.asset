@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2071ff1b8f4a4a8b83cd329954521, type: 3}
+  m_Name: VoicePigLaughCue
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 7a55cd2a99f33ed47872293ccc94566a, type: 3}
+  - {fileID: 8300000, guid: b2781c06e3d8ab24d9a2cc739eb7cb59, type: 3}

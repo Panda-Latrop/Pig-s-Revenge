@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5333661194047289015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5333661194047289014}
+  - component: {fileID: 3370562362870623066}
+  m_Layer: 0
+  m_Name: AIFarmerController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5333661194047289014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5333661194047289015}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3370562362870623066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5333661194047289015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d53ca419550b89a45bb83c3bf8306470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: Prefabs/Controllers/AI/AIFarmerController
+  saveTag: 
+  specifier: farmer
+  "pathArrival\u0421orrection": 0.25
+  maxTargetOffsetToRebuildPath: 5
+  timeToRebuildPath: 10
+  distanceToLostTargetVisibility: 100
+  timeToCheckTargetVisibility: 1
+  distanceToDirectMove: 3
+  distanceToClose: 1
+  timeToGetClosest: 5
+  timeToRandomAttack: 1
+  timeStun: 10
+  deathSound: {fileID: 11400000, guid: f657a5baad9a92e4da73bad3e0213bde, type: 2}

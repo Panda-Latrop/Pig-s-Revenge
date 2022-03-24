@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2071ff1b8f4a4a8b83cd329954521, type: 3}
+  m_Name: EffectFootstepMudCue
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 56b3d28139b0e6748b4faac93d2eda5a, type: 3}
+  - {fileID: 8300000, guid: ce6c09afe761e1840a47f05446c6d28e, type: 3}
+  - {fileID: 8300000, guid: ab6aeae28cb8a4142a833e2a30ef70ad, type: 3}
+  - {fileID: 8300000, guid: 1a2586cd763dfb64a95a16f5c333ab79, type: 3}

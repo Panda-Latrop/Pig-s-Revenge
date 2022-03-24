@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2071ff1b8f4a4a8b83cd329954521, type: 3}
+  m_Name: VoiceFarmerAttackCue
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: d8c522a13b2c4214eb3f3dc9abe92d83, type: 3}
+  - {fileID: 8300000, guid: ed9e3207b7651e94b829cb6a585b4bcb, type: 3}
+  - {fileID: 8300000, guid: 9b18af492d56b904d9b90cf6cbc96bb1, type: 3}
+  - {fileID: 8300000, guid: b86ef07cabbff7a42b00f79872b33a95, type: 3}
+  - {fileID: 8300000, guid: c69cec5c6886f324893a90dc46145c38, type: 3}
+  - {fileID: 8300000, guid: 635744327ef418d4284e921ac5fb1127, type: 3}
+  - {fileID: 8300000, guid: e6e7ba0ef3cfc7b4d8b49eca9225d650, type: 3}
+  - {fileID: 8300000, guid: 19ba81efaee653f4a9756e302afe1364, type: 3}
