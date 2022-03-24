@@ -11,11 +11,14 @@ public class PlayerBattleController : PlayerController
     protected bool gameOver;
     protected float timeImortal = 1.0f;
     protected float nextImortal;
-    //protected void Awake()
-    //{
-    //    Cursor.lockState = CursorLockMode.Locked;
-    //    Cursor.visible = false;
-    //}
+
+    protected SimpleUI ui;
+    protected void Awake()
+    {
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+        ui = GameObject.FindGameObjectWithTag("UI").GetComponent< SimpleUI>();  
+    }
     public override void Possess(Pawn pawn)
     {
         base.Possess(pawn);
@@ -55,26 +58,39 @@ public class PlayerBattleController : PlayerController
         {
             if (gameInput)
             {
-                Vector3 move = Vector3.zero;
-                move.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0.0f);
-                move.Normalize();
-                character.Move(move);
-
-                if (Input.GetMouseButtonDown(0))
-                    character.SetFire(true);
-                else
+                //character.Move(ui.left.Direction);
+                //character.Shoot(ui.right.Pressed, controlledPawn.transform.position, character.Movement.Direction);
+                if (Application.platform.Equals(RuntimePlatform.WindowsEditor))
                 {
-                    if (Input.GetMouseButton(0))
-                        character.Shoot(true, controlledPawn.transform.position, character.Movement.Direction);
+                    Vector3 move = Vector3.zero;
+                    move.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0.0f);
+                    move.Normalize();
+                    character.Move(move);
+
+                    if (Input.GetMouseButtonDown(0))
+                        character.SetFire(true);
                     else
                     {
-                        if (Input.GetMouseButtonUp(0))
+                        if (Input.GetMouseButton(0))
+                            character.Shoot(true, controlledPawn.transform.position, character.Movement.Direction);
+                        else
                         {
-                            character.Shoot(false, Vector3.zero, Vector3.zero);
+                            if (Input.GetMouseButtonUp(0))
+                            {
+                                character.Shoot(false, Vector3.zero, Vector3.zero);
+                            }
                         }
-
                     }
                 }
+                else
+                {
+                    if (Application.platform.Equals(RuntimePlatform.Android))
+                    {
+                        character.Move(ui.left.Direction);
+                        character.Shoot(ui.right.Pressed, controlledPawn.transform.position, character.Movement.Direction);
+                    }
+                }
+
             }
         }
     }

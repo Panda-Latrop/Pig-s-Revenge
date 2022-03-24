@@ -50,6 +50,7 @@ public class MusicSystem : MonoBehaviour
     public void SetAudioSource(AudioSource audioSource)
     {
         this.audioSource = audioSource;
+        this.audioSource.priority = 256;
         this.audioSource.spatialBlend = 0.0f;
     }
     public void Stop()

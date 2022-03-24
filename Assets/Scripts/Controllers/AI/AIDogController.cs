@@ -82,7 +82,7 @@ public class AIDogController : AIController
             }
             if (Time.time >= nextRandomAttack)
             {
-                character.Shoot(true, character.Center,( target.Center - character.Center).normalized);
+                character.Shoot(true, character.Center,character.Movement.Direction);
                 nextRandomAttack = Time.time + timeToRandomAttack;
                 return;
             }

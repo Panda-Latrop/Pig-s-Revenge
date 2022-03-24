@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35933d18d29e3af499753d7f607a9282, type: 3}
+  m_Name: MusicHolder
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: -9181037393314869739, guid: 2f312b11b31f6164088f5b40d79878fd, type: 2}
+  music:
+  - {fileID: 8300000, guid: 0d781291ab151b647900785a0daeffcf, type: 3}
+  - {fileID: 8300000, guid: c49161753b85e774ab9172e53c96f519, type: 3}

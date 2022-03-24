@@ -8,6 +8,7 @@ public class SimpleUI : MonoBehaviour
     public Canvas gameover, gamewin;
     public Text lives, score;
     protected GameBattleState state;
+    public SimpleJoystick left, right;
     public void Start()
     {
         state = GameInstance.Instance.GameState as GameBattleState;
